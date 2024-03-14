@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from '../components/header';
 import { Outlet } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 const UserLayout = () => {
     return (
         <>
             <Header />
-            <main style={{ marginTop: '30px' }}>
+            <Container style={{ marginTop: '30px' }}>
                 <Outlet />
-            </main>
+            </Container>
         </>
     );
 };

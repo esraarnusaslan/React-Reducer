@@ -1,7 +1,12 @@
 import React from 'react';
+import Counter from '../components/counter';
 
 const CounterPage = () => {
-    return <div>CounterPage</div>;
+    return (
+        <>
+            <Counter />
+        </>
+    );
 };
 
 export default CounterPage;
