@@ -1,7 +1,8 @@
 import React from 'react';
+import AppRouterProvider from './router';
 
 const App = () => {
-    return <div>App</div>;
+    return <AppRouterProvider />;
 };
 
 export default App;
