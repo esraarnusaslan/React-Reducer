@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import UserLayout from '../layouts/UserLayout';
 import HomePage from '../page/HomePage';
 import CounterPage from '../page/CounterPage';
+import LoginPage from '../page/LoginPage';
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
             {
                 path: 'counter',
                 element: <CounterPage />,
+            },
+            {
+                path: 'login',
+                element: <LoginPage />,
             },
         ],
     },
